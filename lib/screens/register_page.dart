@@ -156,7 +156,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     DropdownButtonFormField<String>(
                       value: selectedDepartment,
                       decoration: const InputDecoration(labelText: 'Department'),
-                      items: ['Computer Science','Software','EEE','Civil', 'BBA', 'NFE','Pharmacy','Agriculture','Public Health']
+                      items: ['Computer Science','Software','Architecture','EEE','Civil', 'BBA', 'NFE','Pharmacy','Agriculture','Public Health']
                           .map((String dept) {
                         return DropdownMenuItem<String>(
                           value: dept,
